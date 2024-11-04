@@ -2,7 +2,7 @@
 from helpermodules.df_dataretrieval import IndexData_Retrieval
 from helpermodules.correlation_study import CorrelationAnalysis
 
-df_nasdaq = IndexData_Retrieval(filename='nasdaq_dataframe', link='https://en.wikipedia.org/wiki/Nasdaq-100',months=36, frequency='1day') # Edoardo months and frequency?
+df_nasdaq = IndexData_Retrieval(filename='nasdaq_dataframe', link='https://en.wikipedia.org/wiki/Nasdaq-100',months=36, frequency='1day') 
 
 #load data, clean data frame (closing stock prices)
 df_nasdaq.getdata() 
